@@ -166,3 +166,17 @@ python dna_store.py 1984.txt 1984_dna.txt 1984_huffman.csv
 ```
 με το αρχείο [1984.txt](1984.txt), τότε ο κώδικας Huffman θα αποθηκευτεί στο αρχείο [1984_huffman.csv](1984_huffman.csv) και το κωδικοποιημένο αρχείο θα είναι το [1984_dna.txt](1984_dna.txt).
 
+* Αν δώσετε ως είσοδο:
+```
+python dna_store.py -d 1984_dna.txt 1984_decoded.txt 1984_huffman.csv
+```
+το αρχείο `1984_decoded.txt` θα πρέπει να είναι ακριβώς το ίδιο με το αρχείο `1984.txt`.
+
+## Έλεγχος Αποτελεσμάτων
+
+Αναλόγως με τον τρόπο που θα υλοποιήσετε την ουρά προτεραιότητας και την κωδικοποίηση Huffman, ο κώδικας Huffman μπορεί να διαφέρει από αυτόν που βλέπετε στα παραδείγματα, όπως μπορεί να διαφέρουν και τα αρχεία CSV. Αυτό δεν πειράζει. Σε κάθε περίπτωση, αν το πρόγραμμά σας είναι σωστό θα πρέπει η αποκωδικοποίηση ενός αρχείου να είναι ακριβώς ή ίδια με το αρχικό αρχείο.
+
+# Περισσότερες Πληροφορίες
+
+* Andy Extance, How DNA could store all the world’s data, Nature, Vol. 537, no. 7618, pp. 22-24, August 31, 2016. (http://www.nature.com/news/how-dna-could-store-all-the-world-s-data-1.20496)
+* Nick Goldman,	Paul Bertone,	Siyuan Chen,	Christophe Dessimoz,	Emily M. LeProust, Botond Sipos and Ewan Birney, Towards practical, high-capacity, low-maintenance information storage in synthesized DNA, Nature, Vol. 494, no. 7435, pp. 77-80, February 3, 2013. (http://www.nature.com/nature/journal/v494/n7435/abs/nature11875.html) 
