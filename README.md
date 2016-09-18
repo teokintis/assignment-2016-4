@@ -160,4 +160,9 @@ python dna_store.py -d hello_world_dna.txt hello_world_decoded.txt hello_world_h
 ```
 το αρχείο `hello_world_decoded.txt` θα πρέπει να είναι ακριβώς το ίδιο με το αρχείο `hello_world.txt`.
 
+* Αν δώσετε ως είσοδο:
+```
+python dna_store.py 1984.txt 1984_dna.txt 1984_huffman.csv
+```
+με το αρχείο [1984.txt](1984.txt), τότε ο κώδικας Huffman θα αποθηκευτεί στο αρχείο [1984_huffman.csv](1984_huffman.csv) και το κωδικοποιημένο αρχείο θα είναι το [1984_dna.txt](1984_dna.txt).
 
