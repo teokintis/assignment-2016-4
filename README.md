@@ -148,4 +148,8 @@ python dna_store.py [-d] input output huffman
 
 ## Παραδείγματα Εκτέλεσης
 
-
+* Αν δώσετε ως είσοδο:
+```
+python dna_store.py hello_world.txt hello_world_dna.txt hello_world_huffman.csv
+```
+με το αρχείο [hello_world.txt](hello_world.txt), τότε ο κώδικας Huffman θα αποθηκευτεί στο αρχείο [hello_world_huffman.csv](hello_world_huffman.csv) και το κωδικοποιημένο αρχείο θα είναι το [hello_world_dna.txt](hello_world_dna.txt).
